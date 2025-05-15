@@ -1,0 +1,33 @@
+* {
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner {   
+    text-align: center;
+    color: white;
+    font-family: "Underdog", system-ui;
+    text-align : center;
+    
+
+}
+
+button {
+    color: white;
+    background-color: darkblue;
+    border-color: lightblue;
+    padding: 3%;
+    border-radius: 10px;
+}
